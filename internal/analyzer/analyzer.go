@@ -1,10 +1,11 @@
 package analyzer
+
 import (
-    "context"
-    "fmt"
-    "log"
-    "sync"
-    "github.com/google/uuid"
+	"context"
+	"fmt"
+	"github.com/google/uuid"
+	"log"
+	"sync"
 )
 
 // ... rest of the file remains the same
