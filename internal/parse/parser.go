@@ -24,7 +24,7 @@ type Log struct {
 // Parser represents a log parser.
 type Parser struct {
 	logFile string
-	re       *regexp.Regexp
+	re      *regexp.Regexp
 }
 
 // NewParser returns a new log parser instance.
@@ -36,7 +36,7 @@ func NewParser(logFile string) (*Parser, error) {
 	}
 	return &Parser{
 		logFile: logFile,
-		re:       re,
+		re:      re,
 	}, nil
 }
 

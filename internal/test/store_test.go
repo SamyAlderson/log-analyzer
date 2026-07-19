@@ -8,9 +8,9 @@ package store
 import (
 	"testing"
 
-	"google.golang.org/grpc/codes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"google.golang.org/grpc/codes"
 
 	"log-analyzer/internal/store/store"
 )

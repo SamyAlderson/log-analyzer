@@ -13,15 +13,15 @@ import (
 
 // Analyzer is a log analyzer module.
 type Analyzer struct {
-	store   *Store
-	parser  *Parser
+	store  *Store
+	parser *Parser
 }
 
 // NewAnalyzer returns a new instance of the Analyzer.
 func NewAnalyzer(store *Store, parser *Parser) *Analyzer {
 	return &Analyzer{
-		store:   store,
-		parser:  parser,
+		store:  store,
+		parser: parser,
 	}
 }
 

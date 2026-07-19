@@ -13,17 +13,17 @@ import (
 
 // logAnalyzer represents the log analyzer.
 type logAnalyzer struct {
-	parser  *parser
+	parser   *parser
 	analyzer *analyzer
-	store   *store
+	store    *store
 }
 
 // newLogAnalyzer creates a new log analyzer.
 func newLogAnalyzer() *logAnalyzer {
 	return &logAnalyzer{
-		parser:  newParser(),
+		parser:   newParser(),
 		analyzer: newAnalyzer(),
-		store:   newStore(),
+		store:    newStore(),
 	}
 }
 
