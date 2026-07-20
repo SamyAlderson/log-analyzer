@@ -98,7 +98,7 @@ go build -o log-analyzer cmd/log-analyzer/main.go
 
 MIT License
 
-Copyright (c) 2023 Samy Alderson
+Copyright (c) 2026 SamyAlderson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
