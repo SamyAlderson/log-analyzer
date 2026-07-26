@@ -1,19 +1,29 @@
-# .gitignore
-
-# ignore go build files
-*.go.o
-*.go.s
-
-# ignore go test files
-*_test.go
-*_test.go.o
-*_test.go.s
-
-# ignore vendor directory
-vendor/
-
-# ignore node_modules directory
-node_modules/
-
-# ignore .env file
+# ignore .env files
 .env
+# ignore node_modules
+node_modules/
+# ignore go build files
+*.go~
+
+# ignore go fmt files
+*.gofmt
+# ignore go mod files
+go.mod
+go.sum
+# ignore go build cache
+go-build/
+go-cache/
+# ignore docker files
+docker/
+docker-compose.yml
+docker-compose.yaml
+dockerignore
+dockerignore.txt
+# ignore .vscode files
+.vscode/
+# ignore .idea files
+.idea/
+# ignore .env files in subdirectories
+*/.env
+# ignore .env files in subdirectories
+*/.env.txt
