@@ -1,29 +1,28 @@
-# ignore .env files
-.env
-# ignore node_modules
+# .gitignore
+
+# ignore node_modules and yarn.lock
 node_modules/
+yarn.lock
+
 # ignore go build files
 *.go~
 
-# ignore go fmt files
-*.gofmt
-# ignore go mod files
-go.mod
-go.sum
-# ignore go build cache
-go-build/
-go-cache/
-# ignore docker files
-docker/
+# ignore IDE temp files
+*.iml
+*.idea/
+*.vscode/
+
+# ignore Docker build files
 docker-compose.yml
 docker-compose.yaml
-dockerignore
-dockerignore.txt
-# ignore .vscode files
-.vscode/
-# ignore .idea files
-.idea/
-# ignore .env files in subdirectories
-*/.env
-# ignore .env files in subdirectories
-*/.env.txt
+docker/
+
+# ignore AWS credentials
+.aws/
+
+# ignore other stuff
+*.log
+*.tmp
+*.cache
+*.env
+*.env.local
