@@ -1,28 +1,44 @@
-# .gitignore
-
-# ignore node_modules and yarn.lock
+# ignore node_modules and vendor folders
 node_modules/
-yarn.lock
+vendor/
 
-# ignore go build files
-*.go~
+# ignore .env files
+.env
 
-# ignore IDE temp files
-*.iml
-*.idea/
-*.vscode/
+# ignore coverage folder
+coverage/
 
-# ignore Docker build files
+# ignore compiled files
+*.class
+*.o
+*.obj
+
+# ignore IDE files
+.idea/
+.vscode/
+
+# ignore docker files
 docker-compose.yml
-docker-compose.yaml
-docker/
+dockerfile
 
-# ignore AWS credentials
-.aws/
+# ignore git files
+.gitignore
+# ignore other IDE files
+eclipse/
 
-# ignore other stuff
-*.log
-*.tmp
-*.cache
-*.env
-*.env.local
+# ignore IDE settings
+.settings/
+
+# ignore other compiled files
+*.pyc
+*.class
+*.o
+*.obj
+
+# ignore other coverage files
+coverage/
+coverage.xml
+
+# ignore other compiled files
+*.class
+*.pyo
